@@ -1,13 +1,7 @@
-# v3.3
 The unitree_legged_sdk is mainly used for communication between PC and Controller board.
 It also can be used in other PCs with UDP.
 
-### Notice
-support robot: Aliengo, A1
-
-not support robot: Laikago, Go1.
-
-### Dependencies
+## Dependencies
 * [Boost](http://www.boost.org) (version 1.5.4 or higher)
 * [CMake](http://www.cmake.org) (version 2.8.3 or higher)
 * [LCM](https://lcm-proj.github.io) (version 1.4.0 or higher)
@@ -20,7 +14,7 @@ make
 sudo make install
 ```
 
-### Build
+## Build
 ```bash
 mkdir build
 cd build
@@ -28,5 +22,5 @@ cmake ../
 make
 ```
 
-### Usage
+## Usage
 Run examples with 'sudo' for memory locking.

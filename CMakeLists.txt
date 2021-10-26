@@ -24,9 +24,6 @@ target_link_libraries(example_torque ${EXTRA_LIBS})
 add_executable(example_walk examples/example_walk.cpp)
 target_link_libraries(example_walk ${EXTRA_LIBS})
 
-add_executable(example_dance examples/example_dance.cpp)
-target_link_libraries(example_dance ${EXTRA_LIBS})
-
 add_executable(example_wirelessHandle examples/example_wirelessHandle.cpp)
 target_link_libraries(example_wirelessHandle ${EXTRA_LIBS})
 
